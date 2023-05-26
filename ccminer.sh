@@ -1,6 +1,6 @@
-sudo apt-get update-y
+sudo apt-get -y update
 sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
-sudo apt install git-y
+sudo apt install -y git
 git clone --single-branch -b ARM https://github.com/monkins1010/ccminer
 sudo apt install nano
 cd ccminer
